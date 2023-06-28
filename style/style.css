@@ -50,8 +50,9 @@ section {
 }
 
 #comment-form input[type="text"] {
-    width: 300px;
+    width: 100%; /* Alterado para usar toda a largura disponível */
     padding: 5px;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
 }
 
 #comment-form button {
@@ -77,9 +78,10 @@ section {
 
 #recruitment-form input[type="text"],
 #recruitment-form input[type="number"] {
-    width: 300px;
+    width: 100%; /* Alterado para usar toda a largura disponível */
     padding: 5px;
     margin-bottom: 10px;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
 }
 
 #recruitment-form button {
